@@ -307,6 +307,7 @@ aside{
 .footer-container {
 	background-color: #eeeef0;
 	padding: 20px;
+	font-size: 16px;
 }
 
 footer a {
@@ -409,7 +410,7 @@ footer h5 {
 	.col3-b {
 		grid-column: 3/4;
 		grid-row: 2/3;
-		margin-top: 200px;
+		margin-top: 160px;
 	}
 }
 
@@ -422,6 +423,31 @@ footer h5 {
 @media screen and (width >=1000px){
 	.nav-left{
 		display: initial;
+	}
+}
+
+@media screen and (width >=1200px){
+	.footer-top {
+		display: flex;
+		gap: 20px;
+	}
+
+	.footer-main {
+		flex: 1;
+	}
+
+	.footer-aside {
+		flex: 1;
+	}
+
+	.footer-bottom {
+		border-top: 1px solid #b0b3bb;
+		padding: 10px;
+		mar
+	}
+
+	.footer-bottom h5 {
+		display: none;
 	}
 }
 
