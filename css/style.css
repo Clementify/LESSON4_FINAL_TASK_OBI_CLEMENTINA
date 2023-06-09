@@ -359,7 +359,7 @@ footer h5 {
 		grid-template-columns: repeat(2, auto);
 		grid-template-rows: repeat(2, auto);
 		column-gap: 10px;
-		align-items: center;
+		place-items: center;
 	}
 
 	h5 {
@@ -379,13 +379,17 @@ footer h5 {
 		min-width: 200px;
 	}
 
-	.col3-a {
+	/* .col3-a {
+		grid-column: 1/2;
+		grid-row: 2/3;
 		min-width: 300px;
 	}
 
 	.col3-b {
+		grid-column: 2/3;
+		grid-row: 2/3;
 		min-width: 300px;
-	}
+	} */
 	
 }
 @media screen and (width >=700px){
@@ -414,12 +418,14 @@ footer h5 {
 	.col3-a {
 		grid-column: 3/4;
 		grid-row: 2/3;
+		margin-top: -155px;
 	}
 
 	.col3-b {
 		grid-column: 3/4;
 		grid-row: 2/3;
 		margin-top: 160px;
+		margin-left: 27px;
 	}
 }
 
@@ -451,12 +457,13 @@ footer h5 {
 	}
 
 	.footer-aside {
-		flex: 1;
+		flex: 2;
+		margin-top: -100px;
 	}
 
 	.footer-aside h5 {
 		min-height: 130px;
-		margin-bottom: -100px;
+		margin-bottom: -250px;
 		
 	}
 
