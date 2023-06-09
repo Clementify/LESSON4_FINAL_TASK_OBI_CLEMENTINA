@@ -477,6 +477,18 @@ footer h5 {
 	}
 }
 
+@media screen and (width > 1400px) {
+	footer {
+		max-width: 1400px;
+		margin: auto;
+	}
+
+	.footer-aside h5 {
+		margin-bottom: -230px;
+		
+	}
+}
+
 
 
 
