@@ -342,6 +342,9 @@ footer h5 {
 	.nav-image{
 		flex: 1;
 	}
+	header{
+		width: 100%;
+	}
 	.nav-right a{
 		display: initial;
 
@@ -356,6 +359,7 @@ footer h5 {
 		grid-template-columns: repeat(2, auto);
 		grid-template-rows: repeat(2, auto);
 		column-gap: 10px;
+		align-items: center;
 	}
 
 	h5 {
@@ -451,7 +455,9 @@ footer h5 {
 	}
 
 	.footer-aside h5 {
+		min-height: 130px;
 		margin-bottom: -100px;
+		
 	}
 
 	.footer-bottom {
